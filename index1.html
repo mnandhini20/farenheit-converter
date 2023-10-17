@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index1.js"></script>
+  </head>
+  <style>
+    body {
+      background-image: linear-gradient(to left, red, blue);
+    }
+  </style>
+  <body>
+    <div
+      style="
+        background-color: rgb(167, 125, 125);
+        height: 390px;
+        width: 1500px;
+        margin-top: 250px;
+        margin-left: 100px;
+        position: absolute;
+      "
+    >
+      <h1 style="margin-left: 540px; color: aqua; text-transform: uppercase">
+        farenheit converter
+      </h1>
+      <p
+        style="
+          font-size: 28px;
+          margin-left: 550px;
+          color: aqua;
+          margin-top: 40px;
+        "
+      >
+        Celcius to farenheit converter
+      </p>
+      <input
+        style="
+          margin-left: 600px;
+          width: 200px;
+          height: 30px;
+          border-radius: 5px;
+        "
+        type="text"
+        id="input"
+      />
+      <div>
+        <button
+          style="
+            background-color: orangered;
+            width: 270px;
+            height: 50px;
+            font-size: 25px;
+            border-radius: 10px;
+            margin-left: 570px;
+            margin-top: 20px;
+          "
+          id="button"
+          onclick="convert()"
+        >
+          Convert
+        </button>
+      </div>
+      <button
+        style="
+          background-color: rgb(110, 106, 104);
+          width: 130px;
+          height: 40px;
+          border-radius: 8px;
+          font-size: 20px;
+          color: rgb(37, 223, 167);
+          margin-left: 640px;
+          margin-top: 20px;
+        "
+        id="result"
+      ></button>
+    </div>
+  </body>
+</html>
